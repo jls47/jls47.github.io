@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'simplifica';
+  src: url('simplifica.ttf')  format('truetype')
+}
+
+body{
+	font-family: 'simplifica', Fallback, sans-serif;
+}
+
+.main{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 35px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(85, 26, 139);
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;
+}
