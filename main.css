@@ -13,6 +13,26 @@ body{
 	font-size: 35px;
 }
 
+.contactme{
+	font-size: 20px;
+
+}
+
+hr{
+	height: 1px;
+	border-width: 0;
+	
+	background-color: black;
+}
+
+.vertical{
+	border-left: 1px solid black;
+	height: 100%;
+	position: absolute;
+	top: 10px;;
+	margin-left: 100px;
+}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -24,6 +44,58 @@ img{
 	margin-right: auto;
 	width: 10vw;
 }
+
+.works{
+	margin-left: 10vw;
+	margin-top: 15vw;
+}
+
+.subwork{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	-webkit-transform: rotate(45deg);
+	text-align: center;
+}
+
+.workContent{
+	-webkit-transform: rotate(-45deg);
+	margin-top: 40%;
+}
+
+#sw1{
+	position: relative;
+	top: -143px;
+	left: 64px;
+}
+
+#sw2{
+	position: relative;
+	margin-left: -0.5px;
+}
+
+#sw3{
+	position: relative;
+	top: -143px;
+	left: -65.5px;
+}
+
+#sw4{
+	position: relative;
+	left: -130.5px;
+}
+
+#sw5{
+	position: relative;
+	top: -143px;
+	left: -195.5px;
+}
+
+
 
 @media only screen and (max-width: 1200px) {
 	img {
