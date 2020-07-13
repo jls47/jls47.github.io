@@ -60,6 +60,14 @@ img{
 	border-color: black;
 	-webkit-transform: rotate(45deg);
 	text-align: center;
+	transition: width .5s, height .5s, background .5s, color .5s;
+}
+
+.subwork:hover{
+	background: black;
+	color: white;
+	width: 15vw;
+	height: 15vw;
 }
 
 .workContent{
