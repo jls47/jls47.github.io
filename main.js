@@ -14,6 +14,9 @@ function workClick(div) {
 			works[i].setAttribute("onmouseleave", 'console.log("leaving");');
 			works[i].setAttribute("onmouseenter", 'console.log("entering");');
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
+			var c = works[i].children[0];
+			console.log(c);
+			c.style="-webkit-transform: rotate(0deg);margin-top: 40%;";
 		}
 	}
 	//Just add css transition to all others
@@ -41,5 +44,8 @@ function leaveWork() {
 		works[i].setAttribute
 		works[i].setAttribute("onmouseleave", "leaveWork()");
 		works[i].setAttribute("onmouseenter", "workHover('" + (i + 1) + "');");
+		var c = works[i].children[0];
+		console.log(c);
+		c.style="-webkit-transform: rotate(-45deg);margin-top: 40%;";
 	}
 }
