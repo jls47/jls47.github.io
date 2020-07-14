@@ -7,9 +7,13 @@ body{
 	font-family: 'simplifica', Fallback, sans-serif;
 }
 
+button{
+	-webkit-transform: rotate(-45deg);
+}
+
 .main{
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 	font-size: 35px;
 }
 
@@ -21,15 +25,14 @@ body{
 hr{
 	height: 1px;
 	border-width: 0;
-	
 	background-color: black;
 }
 
 .vertical{
 	border-left: 1px solid black;
-	height: 100%;
+	height: 98%;
 	position: absolute;
-	top: 10px;;
+	top: 2%;
 	margin-left: 100px;
 }
 
@@ -47,7 +50,7 @@ img{
 
 .works{
 	margin-left: 10vw;
-	margin-top: 15vw;
+	margin-top: 10vw;
 }
 
 .subwork{
@@ -60,15 +63,10 @@ img{
 	border-color: black;
 	-webkit-transform: rotate(45deg);
 	text-align: center;
-	transition: width .5s, height .5s, background .5s, color .5s;
+	transition: -webkit-transform 0.5s, width .5s, height .5s, background .5s, color .5s, border-width .5s, font-size .5s, margin-top 0.5s, margin-left 0.5s;
 }
 
-.subwork:hover{
-	background: black;
-	color: white;
-	width: 15vw;
-	height: 15vw;
-}
+/* Add Touch Support */
 
 .workContent{
 	-webkit-transform: rotate(-45deg);
