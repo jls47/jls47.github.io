@@ -71,7 +71,7 @@ img{
 .workContent{
 	-webkit-transform: rotate(-45deg);
 	margin-top: 40%;
-	transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s, margin-top 0.5s;
 }
 
 #sw1{

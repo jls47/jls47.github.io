@@ -16,7 +16,7 @@ function workClick(div) {
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
 			var c = works[i].children[0];
 			console.log(c);
-			c.style="-webkit-transform: rotate(0deg);margin-top: 40%;";
+			c.style="-webkit-transform: rotate(0deg);margin-top: 20%;";
 		}
 	}
 	//Just add css transition to all others
