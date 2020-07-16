@@ -55,8 +55,8 @@ img{
 
 .subwork{
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 15vw;
+	height: 15vw;
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
@@ -64,6 +64,11 @@ img{
 	-webkit-transform: rotate(45deg);
 	text-align: center;
 	transition: -webkit-transform 0.5s, width .5s, height .5s, background .5s, color .5s, border-width .5s, font-size .5s, margin-top 0.5s, margin-left 0.5s;
+}
+
+.subwork:nth-child(even) {
+	color: white;
+	background: black;
 }
 
 /* Add Touch Support */
@@ -76,42 +81,42 @@ img{
 
 #sw1{
 	position: relative;
-	top: -143px;
-	left: 64px;
+	top: -22.8vh;
 }
 
 #sw2{
 	position: relative;
-	margin-left: -0.5px;
+	left: -10.2vh;
 }
 
 #sw3{
 	position: relative;
-	top: -143px;
-	left: -65.5px;
+	top: -22.8vh;
+	left: -20.4vh;
 }
 
 #sw4{
 	position: relative;
-	left: -130.5px;
+	left: -30.6vh;
 }
 
 #sw5{
 	position: relative;
-	top: -143px;
-	left: -195.5px;
+	top: -22.8vh;
+	left: -40.8vh;
 }
 
 
 
 @media only screen and (max-width: 1200px) {
-	img {
-		width: 20vw;
+	.subwork {
+		width: 15vw;
+		height: 15vw;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-  img{
-	  width: 40vw;
+  .subwork {
+	  width: 15vw;
   }
 }
