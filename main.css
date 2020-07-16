@@ -49,14 +49,16 @@ img{
 }
 
 .works{
-	margin-left: 10vw;
-	margin-top: 10vw;
+	position: relative;
+	margin-left: 15vh;
+	width: 60vh;
+	height: 60vh;
 }
 
 .subwork{
 	display: inline-block;
-	width: 15vw;
-	height: 15vw;
+	width: 50%;
+	height: 50%;
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
@@ -76,43 +78,34 @@ img{
 }
 
 #sw1{
-	position: relative;
-	top: -22.8vh;
+	position: absolute;
+	left: 15%;
+	top: -15%;
 }
 
 #sw2{
-	position: relative;
-	left: -10.2vh;
+	position: absolute;
+	left: 50.7%;
+	top: 20.5%;
 }
 
 #sw3{
-	position: relative;
-	top: -22.8vh;
-	left: -20.4vh;
+	position: absolute;
+	left: 86.2%;
+	top: -15%;
 }
 
 #sw4{
-	position: relative;
-	left: -30.6vh;
+	position: absolute;
+	left: 121.8%;
+	top: 20.5%;
 }
 
 #sw5{
-	position: relative;
-	top: -22.8vh;
-	left: -40.8vh;
+	position: absolute;
+	left: 157.4%;
+	top: -15%;
 }
 
 
 
-@media only screen and (max-width: 1200px) {
-	.subwork {
-		width: 15vw;
-		height: 15vw;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-  .subwork {
-	  width: 15vw;
-  }
-}

@@ -12,8 +12,8 @@ function workClick(div) {
 			
 		} else {
 			//Needs improved positioning after rotation
-				works[i].style=`width:70%;height:400px;margin-top:-50px;-webkit-transform: rotate(0deg);
-				position:absolute;top:12vw;left:10%;`;
+				works[i].style=`width:60vw;height:100%;margin-top:-50px;-webkit-transform: rotate(0deg);
+				top: -10%;left:10%;`;
 
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
 			var c = works[i].children[0];
