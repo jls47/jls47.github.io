@@ -66,10 +66,6 @@ img{
 	transition: -webkit-transform 0.5s, width .5s, height .5s, background .5s, color .5s, border-width .5s, font-size .5s, margin-top 0.5s, margin-left 0.5s;
 }
 
-.subwork:nth-child(even) {
-	color: white;
-	background: black;
-}
 
 /* Add Touch Support */
 

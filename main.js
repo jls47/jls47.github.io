@@ -12,14 +12,9 @@ function workClick(div) {
 			
 		} else {
 			//Needs improved positioning after rotation
-			
-			if(works[i].id.charCodeAt(2) % 2 == 1) {
 				works[i].style=`width:70%;height:400px;margin-top:-50px;-webkit-transform: rotate(0deg);
-				position:absolute;top:12vw;left:10%;color:white;background:black;`;
-			} else {
-				works[i].style=`width:70%;height:400px;margin-top:-50px;-webkit-transform: rotate(0deg);
-				position:absolute;top:12vw;left:10%;color:black;background:white;`;
-			}
+				position:absolute;top:12vw;left:10%;`;
+
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
 			var c = works[i].children[0];
 			c.style="-webkit-transform: rotate(0deg);margin-top: 20%;";
@@ -38,11 +33,8 @@ function workHover(div) {
 	console.log(current);
 	for(var i = 0; i < works.length; i++) {
 		if(works[i].id.charCodeAt(2) == current) {
-			if(works[i].id.charCodeAt(2) % 2 == 1) {
 				works[i].style="background: black; color: white; height: 17vw; width: 17vw;";
-			} else {
-				works[i].style="background: white; color: black; height: 17vw; width: 17vw;";
-			}
+			
 		}
 	}
 }
