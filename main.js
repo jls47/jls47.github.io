@@ -12,8 +12,15 @@ function workClick(div) {
 			
 		} else {
 			//Needs improved positioning after rotation
+			var vw = window.innerWidth;
+			console.log(vw);
+			if(vw > 800) {
+			works[i].style=`width:60vw;height:100%;margin-top:-50px;-webkit-transform: rotate(0deg);
+			top: -10%;left:10%;`;
+			} else {
 				works[i].style=`width:60vw;height:100%;margin-top:-50px;-webkit-transform: rotate(0deg);
-				top: -10%;left:10%;`;
+				top: -10%;left:7%;`;
+			}
 
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
 			var c = works[i].children[0];
