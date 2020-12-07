@@ -40,7 +40,11 @@ function workHover(div) {
 	console.log(current);
 	for(var i = 0; i < works.length; i++) {
 		if(works[i].id.charCodeAt(2) == current) {
-				works[i].style="background: black; color: white; height: 17vw; width: 17vw;";
+            if(window.innerWidth < 900) {
+               works[i].style="background: black; color: white; height: 30%; width: 30%; z-index: 100;";
+            } else {
+               works[i].style="background: black; color: white; height: 50%; width: 50%; z-index: 100;";
+            }
 			
 		}
 	}
@@ -56,6 +60,6 @@ function leaveWork() {
 		works[i].setAttribute("onmouseenter", "workHover('" + (i + 1) + "');");
 		var c = works[i].children[0];
 		console.log(c);
-		c.style="-webkit-transform: rotate(-45deg);margin-top: 40%;";
+		c.style="margin-top: 40%;";
 	}
 }
