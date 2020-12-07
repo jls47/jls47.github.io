@@ -39,7 +39,7 @@ function workHover(div) {
             if(window.innerWidth < 900) {
                works[i].style="background: black; color: white; height: 30%; width: 30%; z-index: 100;";
             } else {
-               works[i].style="background: black; color: white; height: 50%; width: 50%; z-index: 100;";
+               works[i].style="background: black; color: white; height: 60%; width: 60%; z-index: 100;";
             }
 			
 		}
