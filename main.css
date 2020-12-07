@@ -185,15 +185,3 @@ img{
 		top: 47%;
 	}
 }
-
-@media only screen and (max-width: 500px) {
-	
-	.vertical{
-		margin-left: 85px;
-	}
-	
-	.works{
-		margin-left: 32%;
-		margin-top: -13%;
-	}
-}
