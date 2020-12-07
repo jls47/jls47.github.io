@@ -20,8 +20,10 @@ function workClick(div) {
 
 			works[i].setAttribute("onclick", "leaveWork();event.stopPropagation();");
 			var c = works[i].children[0];
-			c.style="-webkit-transform: rotate(0deg);margin-top: 10%;";
-         var txt = works[i].children[0].children[1];
+			c.style="margin-top: 10%;";
+         var img = c.children[0];
+         img.style="width: 20%";
+         var txt = c.children[1];
          txt.style="display: inline; font-size: 20px;";
 		}
 			works[i].setAttribute("onmouseleave", 'console.log("leaving");');
@@ -56,7 +58,9 @@ function leaveWork() {
 		works[i].setAttribute("onmouseenter", "workHover('" + (i + 1) + "');");
 		var c = works[i].children[0];
 		c.style="margin-top: 40%;";
-      var txt = works[i].children[0].children[1];
+      var img = c.children[0];
+      img.style="width:30%";
+      var txt = c.children[1];
       txt.style="display: none;";
 	}
 }
