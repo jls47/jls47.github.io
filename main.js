@@ -10,11 +10,11 @@ function workClick(div) {
 		} else {
 			//Needs improved positioning after rotation
 			var vw = window.innerWidth;
-			if(vw > 800) {
-			works[i].style=`width:60vw;height:100%;margin-top:-50px;-webkit-transform: rotate(0deg);
+			if(vw > 900) {
+			works[i].style=`width:60vw;height:100%;margin-top:-50px;
 			top: -10%;left:10%;`;
 			} else {
-				works[i].style=`width:60vw;height:100%;margin-top:-50px;-webkit-transform: rotate(0deg);
+				works[i].style=`width:60vw;height:100%;margin-top:-50px;background:black;color:white;
 				top: -10%;left:3%;`;
 			}
 
