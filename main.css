@@ -150,11 +150,19 @@ img{
 		
 		margin-left: 85px;
 	}
+   
+   .contactme a{
+      color:black;
+   }
 	
 	.works{
 		margin-left: 22%;
 		margin-top: -5%;
 	}
+   
+   a{
+      color: white;
+   }
 	
 	.subwork{
 		width: 20%;
