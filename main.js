@@ -38,6 +38,7 @@ function workHover(div) {
 	var current = div.charCodeAt(0);
 	for(var i = 0; i < works.length; i++) {
 		if(works[i].id.charCodeAt(2) == current) {
+            console.log(works[i].getBoundingClientRect());
             if(window.innerWidth < 900) {
                works[i].style="background: black; color: white; height: 30%; width: 30%; z-index: 100;";
             } else {
