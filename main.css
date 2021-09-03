@@ -36,6 +36,24 @@ hr{
 	margin-left: 100px;
 }
 
+
+.line{
+	display:  inline-block;
+
+}
+
+.techused{
+margin-left:  120px;
+margin-top:  -55px;
+}
+
+.tech{
+	display:  inline;
+	margin-left:  7vw;
+	height: 50px;
+	width:  auto;
+}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -172,6 +190,15 @@ img{
 	.works{
 		margin-left: 22%;
 		margin-top: -5%;
+	}
+
+	.tech{
+		height: 30px;
+		margin-left: 3vw;
+	}
+
+	.techused{
+		margin-left: 80px;
 	}
    
    a{
