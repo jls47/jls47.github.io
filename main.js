@@ -35,16 +35,12 @@ function workClick(div) {
 
 function techHover(num) {
 	let hrefs = ["cpprev.png", "typescriptrev.webp", "pythonrev.png", "reactrev.png", "postgresrev.png", "nodejsrev.webp"];
-	let tech = document.getElementsByClassName("techused")[0].children[num].children[0];
-	tech.style = "background: black;";
-	tech.src = hrefs[num];
+	document.getElementsByClassName("techused")[0].children[num].children[0].src = hrefs[num];
 }
 
 function techLeave(num) {
 	let hrefs = ["cpp.png", "typescript.webp", "python.png", "react.png", "postgres.png", "nodejs.webp"];
-	let tech = document.getElementsByClassName("techused")[0].children[num].children[0];
-	tech.style = "background: none;";
-	tech.src = hrefs[num];
+	document.getElementsByClassName("techused")[0].children[num].children[0].src = hrefs[num];
 }
 
 /*

@@ -48,28 +48,30 @@ margin-top:  -55px;
 }
 
 .tech{
-	display:  inline;
+	display:  inline-block;
 	margin-left:  9vw;
-	height: 100px;
+	height: 50px;
 	width:  auto;
+	border-radius: 20px;
 
 	background:  transparent;
-   -webkit-transition: background 1s;
-   -moz-transition: background 1s;
-   -o-transition: background 1s;
-   transition:  background 1s;
+   transition: -webkit-transform 0.5s, all 0.5s;
 }
 
-.tech hover{
-   background: black;
-	-webkit-transition: background 1s;
-   -moz-transition: background 1s;
-   -o-transition: background 1s;
-   transition:  background 1s;
+.tech img:hover{
+	border-radius:  8px;
+	background:  black;
+   transition: -webkit-transform 0.5s, all 0.5s;
 }
+
+.tech img:leave{
+	background: transparent;
+	transition:  -webkit-transform 0.5s, all 0.5s;
+}
+
 
 .techimg{
-	display:  inline;
+	display:  inline-block;
 	height: 50px;
 	width:  auto;
 }
