@@ -33,6 +33,17 @@ function workClick(div) {
 	
 }
 
+function techHover(div) {
+
+}
+
+/*
+TODO:
+There has to be a better way to do this.  I can't be looping through quite literally every
+element to get to one.  I need to grab an int or char code or something and just get at that
+array.  No way this stands.
+*/
+
 function workHover(div) {
 	var works = document.getElementsByClassName("subwork");
 	var current = div.charCodeAt(0);
