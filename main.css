@@ -50,6 +50,26 @@ margin-top:  -55px;
 .tech{
 	display:  inline;
 	margin-left:  9vw;
+	height: 100px;
+	width:  auto;
+
+	background:  transparent;
+   -webkit-transition: background 1s;
+   -moz-transition: background 1s;
+   -o-transition: background 1s;
+   transition:  background 1s;
+}
+
+.tech hover{
+   background: black;
+	-webkit-transition: background 1s;
+   -moz-transition: background 1s;
+   -o-transition: background 1s;
+   transition:  background 1s;
+}
+
+.techimg{
+	display:  inline;
 	height: 50px;
 	width:  auto;
 }
