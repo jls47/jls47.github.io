@@ -34,12 +34,12 @@ function workClick(div) {
 }
 
 function techHover(num) {
-	let hrefs = ["cpprev.png", "jsrev.png", "pythonrev.png", "reactrev.png", "postgresrev.png", "nodejsrev.webp"];
+	let hrefs = ["cpprev.png", "nodejsrev.webp", "pythonrev.png", "reactrev.png", "postgresrev.png"];
 	document.getElementsByClassName("techused")[0].children[num].children[0].src = hrefs[num];
 }
 
 function techLeave(num) {
-	let hrefs = ["cpp.png", "js.png", "python.png", "react.png", "postgres.png", "nodejs.webp"];
+	let hrefs = ["cpp.png", "nodejs.webp", "python.png", "react.png", "postgres.png"];
 	document.getElementsByClassName("techused")[0].children[num].children[0].src = hrefs[num];
 }
 
