@@ -55,13 +55,13 @@ margin-top:  -55px;
 	border-radius: 20px;
 
 	background:  transparent;
-   transition: -webkit-transform 0.5s, all 0.5s;
+   transition: -webkit-transform 0.3s, all 0.2s;
 }
 
 .tech img:hover{
 	border-radius:  8px;
 	background:  black;
-   transition: -webkit-transform 0.5s, all 0.5s;
+   transition: -webkit-transform 0.3s, all 0.2s;
 }
 
 .tech img:leave{
