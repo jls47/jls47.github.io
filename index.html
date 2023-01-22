@@ -1,103 +1,133 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<title>Luke Schaefer</title>
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>Luke Schaefer</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-<div class="header">
-<div class="navigation">
+    <div class="header">
+        <div class="navigation">
 
-</div>
-<div class="contactme">
-<div class="line">
-<p>Luke Schaefer</p> <span class="vertical"></span>
-<div class="techused">
-<a class = "tech" onmouseenter = "techHover(0)" onmouseleave = "techLeave(0)" href="https://www.cplusplus.com/"><img class = "techimg" src="cpp.png"></a>
-<a class = "tech" onmouseenter = "techHover(1)" onmouseleave = "techLeave(1)" href="https://nodejs.org/en/"><img class = "techimg" src="nodejs.webp"></a>
-<a class = "tech" onmouseenter = "techHover(2)" onmouseleave = "techLeave(2)" href="https://www.python.org/"><img class = "techimg" src="python.png"></a>
-<a class = "tech" onmouseenter = "techHover(3)" onmouseleave = "techLeave(3)" href="https://reactjs.org/"><img class = "techimg" src="react.png"></a>
-<a class = "tech" onmouseenter = "techHover(4)" onmouseleave = "techLeave(4)" href="https://www.postgresql.org/"><img class = "techimg" src="postgres.png"></a>
+        </div>
+        <div class="contactme">
+            <div class="line">
+                <p>Luke Schaefer</p> <span class="vertical"></span>
+                <div class="techused">
+                    <a class="tech" onmouseenter="techHover(0)" onmouseleave="techLeave(0)"
+                        href="https://www.cplusplus.com/"><img class="techimg" src="cpp.png"></a>
+                    <a class="tech" onmouseenter="techHover(1)" onmouseleave="techLeave(1)"
+                        href="https://nodejs.org/en/"><img class="techimg" src="nodejs.webp"></a>
+                    <a class="tech" onmouseenter="techHover(2)" onmouseleave="techLeave(2)"
+                        href="https://www.python.org/"><img class="techimg" src="python.png"></a>
+                    <a class="tech" onmouseenter="techHover(3)" onmouseleave="techLeave(3)"
+                        href="https://reactjs.org/"><img class="techimg" src="react.png"></a>
+                    <a class="tech" onmouseenter="techHover(4)" onmouseleave="techLeave(4)"
+                        href="https://www.postgresql.org/"><img class="techimg" src="postgres.png"></a>
 
-</div>
-</div>
-<hr>
-<p class = "contact"><a href="mailto:lukeschaefer@gmail.com">Email</a></p>
-<p class = "contact"><a href="https://www.linkedin.com/in/schaef16/">LinkedIn</a></p>
-<p class = "contact"><a href="https://github.com/jls47">GitHub</a></p>
-</div>
-</div>
+                </div>
+            </div>
+            <hr>
+            <p class="contact"><a href="mailto:lukeschaefer@gmail.com">Email</a></p>
+            <p class="contact"><a href="https://www.linkedin.com/in/schaef16/">LinkedIn</a></p>
+            <p class="contact"><a href="https://github.com/jls47">GitHub</a></p>
+        </div>
+    </div>
 
-<div class="main">
-<div class="works">
-
-
-
-<div class="subwork" id = "sw1" onclick="workClick(1)" onmouseenter="workHover(1)" onmouseleave="leaveWork(1)">
-<div class="workContent">
-<img src="modded_yuzu_logo.png">
-<div class="workInfo">
-<p>Yuzu.  An open source Switch emulator built in C++ that supports Vulkan.  Currently contributing to UI functionality in Linux.</p>
-<b><a href="https://github.com/jls47/yuzu" target="_blank">GitHub</a></b> | <b><a href="https://yuzu-emu.org/" target="_blank">Yuzu</a></b>
-</div>
-</div>
-</div>
-
-<div class="subwork" id = "sw2" onclick="workClick(2)" onmouseenter="workHover(2)" onmouseleave="leaveWork(2)">
-<div class="workContent">
-<img src="shield2.png">
-<div class="workInfo">
-<p><b>Fairfield Programming Association - Backend Server</b> <br>
-A Node.js-based server utility running behind the scenes at the Fairfield Programming Association.  Hosted on Heroku and getting augmented with new features like email functionality, a friends list, and a competition area.</p>
- <b><a href="https://fairfieldprogramming.org/" target="_blank">Site</a></b> | <b><a href="https://github.com/fairfield-programming/backend-server" target="_blank">GitHub</a></b>
-</div>
-</div>
-</div>
-
-<div class="subwork" id = "sw3" onclick="workClick(3)" onmouseenter="workHover(3)" onmouseleave="leaveWork(3)">
-<div class="workContent">
-<img src="karaoke.png">
-<div class="workInfo">
-<p>Karaoke song browser for the Monkey Pub-unfinished, but operational.  Built with Vue and Node, with the backend hosted on Heroku.  React-based rebuild underway.</p>
-<b><a href="https://jls47.github.io/monkeyfront/#/" target="_blank">App</a></b> | <b><a href="https://github.com/jls47/monkeyfront" target="_blank">FrontEnd Code</a></b> | <b><a href="https://github.com/jls47/monkeyback" target="_blank">BackEnd Code</a></b>
-</div>
-</div>
-</div>
-
-<div class="subwork" id = "sw4" onclick="workClick(4)" onmouseenter="workHover(4)" onmouseleave="leaveWork(4)">
-<div class="workContent">
-<img src="recipe.png">
-<div class="workInfo">
-<p>Quick n Easy Recipes - <b><a href="https://github.com/the-dubs-brigade" target="_blank">The Dubs Brigade</a></b>'s entry into UWB Hacks 2021.  
-    <br>React/Express app that utilizes the flexibility inherent in
-    component-based frameworks to provide a focused, clean UX for a service
-    that's proven to be in demand during this pandemic.</p>
-    <b><a href="https://the-dubs-brigade.github.io/rec.ipe/" target="_blank">App</a></b> | <b><a href="https://github.com/the-dubs-brigade/rec.ipe" target="_blank">FrontEnd Code</a></b> | <b><a href="https://github.com/the-dubs-brigade/rec.ipe_back" target="_blank">BackEnd Code</a></b> 
-<br>
-</div>
-</div>
-</div>
-
-<div class="subwork" id = "sw5" onclick="workClick(5)" onmouseenter="workHover(5)" onmouseleave="leaveWork(5)">
-<div class="workContent">
-<img src="cruise.png">
-<div class="workInfo">
-<p>Holland America Line.  Web scraping utilities and an API to save dozens of man-hours over a three month project.</p>
-<b><a href="https://github.com/jls47/holam" target="_blank">Scraper</a></b> | <b><a href="https://github.com/jls47/holamapi" target="_blank">Django API</a></b> | <b><a href="https://github.com/jls47/celery" target="_blank">Task Scheduler</a></b> | <b><a href="https://www.hollandamerica.com/en_US.html" target="_blank">Current Holland America Site</a></b>
-</div>
-</div>
-</div>
+    <div class="main">
+        <div class="works">
 
 
-</div>
-</div>
+            <div class="subwork" id="sw1" onclick="workClick(1)" onmouseenter="workHover(1)"
+                onmouseleave="leaveWork(1)">
+                <div class="workContent">
+                    <img src="tutoring.png">
+                    <div class="workInfo">
+                        <p><b>Computer Science Tutoring</b> <br>
+                        I tutored Computer Science students at Shoreline Community College for two years between 2020 and 2022
+                        before I started my current role in Solutions Engineering at <a href="https://www.healthnote.com/">Health Note</a>.  
+                        I helped students of all sorts get their feet wet in Python and Java, learning along the way how best to
+                        explain and teach everything from syntax to Data Structures & Algorithms.</p>
+                        <b><a href="https://www.shoreline.edu/apply-and-aid/learning-support-centers/tutoring.aspx" target="_blank">Shoreline Community College Tutoring Center</a></b>
+                    </div>
+                </div>
+            </div>
 
-<div class="footer">
-</div>
-<script type=text/javascript src="main.js">
+            <div class="subwork" id="sw2" onclick="workClick(2)" onmouseenter="workHover(2)"
+                onmouseleave="leaveWork(2)">
+                <div class="workContent">
+                    <img src="modded_yuzu_logo.png">
+                    <div class="workInfo">
+                        <p>Yuzu. An open source Switch emulator built in C++ that supports Vulkan. Currently
+                            contributing to UI functionality in Linux.</p>
+                        <b><a href="https://github.com/jls47/yuzu" target="_blank">GitHub</a></b> | <b><a
+                                href="https://yuzu-emu.org/" target="_blank">Yuzu</a></b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subwork" id="sw3" onclick="workClick(3)" onmouseenter="workHover(3)"
+                onmouseleave="leaveWork(3)">
+                <div class="workContent">
+                    <img src="karaoke.png">
+                    <div class="workInfo">
+                        <p>Karaoke song browser for the Monkey Pub-unfinished, but operational. Built with Vue and Node,
+                            with the backend hosted on Heroku. React-based rebuild underway.</p>
+                        <b><a href="https://jls47.github.io/monkeyfront/#/" target="_blank">App</a></b> | <b><a
+                                href="https://github.com/jls47/monkeyfront" target="_blank">FrontEnd Code</a></b> |
+                        <b><a href="https://github.com/jls47/monkeyback" target="_blank">BackEnd Code</a></b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subwork" id="sw4" onclick="workClick(4)" onmouseenter="workHover(4)"
+                onmouseleave="leaveWork(4)">
+                <div class="workContent">
+                    <img src="recipe.png">
+                    <div class="workInfo">
+                        <p>Quick n Easy Recipes - <b><a href="https://github.com/the-dubs-brigade" target="_blank">The
+                                    Dubs Brigade</a></b>'s entry into UWB Hacks 2021.
+                            <br>React/Express app that utilizes the flexibility inherent in
+                            component-based frameworks to provide a focused, clean UX for a service
+                            that's proven to be in demand during this pandemic.
+                        </p>
+                        <b><a href="https://the-dubs-brigade.github.io/rec.ipe/" target="_blank">App</a></b> | <b><a
+                                href="https://github.com/the-dubs-brigade/rec.ipe" target="_blank">FrontEnd Code</a></b>
+                        | <b><a href="https://github.com/the-dubs-brigade/rec.ipe_back" target="_blank">BackEnd
+                                Code</a></b>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subwork" id="sw5" onclick="workClick(5)" onmouseenter="workHover(5)"
+                onmouseleave="leaveWork(5)">
+                <div class="workContent">
+                    <img src="cruise.png">
+                    <div class="workInfo">
+                        <p>Holland America Line. Web scraping utilities and an API to save dozens of man-hours over a
+                            three month project.</p>
+                        <b><a href="https://github.com/jls47/holam" target="_blank">Scraper</a></b> | <b><a
+                                href="https://github.com/jls47/holamapi" target="_blank">Django API</a></b> | <b><a
+                                href="https://github.com/jls47/celery" target="_blank">Task Scheduler</a></b> | <b><a
+                                href="https://www.hollandamerica.com/en_US.html" target="_blank">Current Holland America
+                                Site</a></b>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+    </div>
+    <script type=text/javascript src="main.js">
 </script>
 </body>
+
 </html>
